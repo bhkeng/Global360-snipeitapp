@@ -1,0 +1,10 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Normally .env would be included in gitignore but I left it commented out just to show I am using .env
+# .env
