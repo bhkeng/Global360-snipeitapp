@@ -1,3 +1,9 @@
+/**
+ * Page Object Model for the viewing the Assets detail page.
+ *
+ * Represents the hardware asset screen of the application and provides methods to interact with it.
+ */
+
 import { Page, Locator, expect } from "@playwright/test";
 
 export default class AssetDetailPage {

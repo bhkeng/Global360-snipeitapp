@@ -7,7 +7,7 @@ test.describe('Automatic retry test(s)', () => {
   test.describe.configure({ retries: 1 });
 
   test('create and validate new asset', async ({ page }) => {
-    // This test logs the user into the Snape-IT application, creates a new asset and then to verify the newly
+    // This test logs the user into the Snape-IT application and creates a new asset. Then to verify the newly
     // created asset was successful it searches for the asset and verifies the asset's detail and history.
 
     const modelFullName = 'Laptops - Macbook Pro 13\"';

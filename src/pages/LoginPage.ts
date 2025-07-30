@@ -1,3 +1,9 @@
+/**
+ * Page Object Model for the Login page.
+ *
+ * Represents the login screen of the application and provides methods to interact with it.
+ */
+
 import { Page, expect } from '@playwright/test';
 import { env } from '../utils/env';
 import DashboardPage from './DashboardPage';

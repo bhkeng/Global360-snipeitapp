@@ -22,7 +22,7 @@ This repository contains a Playwright framework that provide a robust, scalable,
 - Use of utility file in `utils\testUtils.ts `
 - `dotEnv` used to store sensitive username, password information (although i removed .env from gitignore so it is uploaded to repo for you to see I have implemented it!)
 - Ability to run scripts in different environments by using `utils\env.ts` and environment config files e.g `config\env.test.json`
-- FOR FUTURE IMPLEMENTATION: Other features that have could be added given more time: allure reporter, eslint/playwright eslint plugin, global error logger, external file logging, fixtures, cucumber etc 
+- FOR FUTURE IMPLEMENTATION: Other features that could have been added given more time: allure reporter, eslint/playwright eslint plugin, global error logger, external file logging, fixtures, cucumber etc 
 
 ## Project Snipe-IT Folder Structure
 
@@ -33,7 +33,6 @@ Project Folder<br>
 ├── playwright-report <br>
 └── src<br>
 &nbsp; &nbsp; &nbsp; &nbsp;├── config<br>
-&nbsp; &nbsp; &nbsp; &nbsp;├── logging<br>
 &nbsp; &nbsp; &nbsp; &nbsp;├── pages<br>
 &nbsp; &nbsp; &nbsp; &nbsp;└── tests<br>
 &nbsp; &nbsp; &nbsp; &nbsp;└── utils<br>

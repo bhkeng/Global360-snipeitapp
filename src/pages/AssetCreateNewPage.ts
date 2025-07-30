@@ -1,3 +1,9 @@
+/**
+ * Page Object Model for the Assets>Create New page.
+ *
+ * Represents the create new asset screen of the application and provides methods to interact with it.
+ */
+
 import { Page, Locator, expect } from "@playwright/test";
 import { TestUtils } from "../utils/testUtils";
 

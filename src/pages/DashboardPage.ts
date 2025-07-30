@@ -1,3 +1,9 @@
+/**
+ * Page Object Model for the Dashboard page (aka home landing page) for a logged in user.
+ *
+ * Represents the dashboard screen of the application and provides methods to interact with it.
+ */
+
 import { Page, Locator, expect } from "@playwright/test";
 import AssetCreateNewPage from './AssetCreateNewPage';
 import AssetDetailPage from "./AssetDetailPage";
